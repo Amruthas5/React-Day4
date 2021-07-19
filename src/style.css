@@ -1,0 +1,21 @@
+.Symbol{
+    color: red;
+    font-size: 50px;
+}
+body{
+    background-image:url("https://thumbs.dreamstime.com/z/tic-tac-toe-pattern-blue-background-chaotic-sample-74834641.jpg");
+    
+
+}
+.grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 20px;
+}
+.box{
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
